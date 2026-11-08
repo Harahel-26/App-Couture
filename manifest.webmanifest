@@ -1,0 +1,10 @@
+{
+  "name": "Atelier — Stylisme au Bénin",
+  "short_name": "Atelier",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5efe5",
+  "theme_color": "#f5efe5",
+  "lang": "fr",
+  "description": "La plateforme digitale des stylistes et clients au Bénin."
+}

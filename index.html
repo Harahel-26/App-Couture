@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5efe5">
+  <meta name="description" content="Atelier — plateforme numérique pour les stylistes et leurs clients au Bénin.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>Atelier — Stylisme au Bénin</title>
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Atelier accueil">
+      <span class="brand-mark">A</span>
+      <span>ATELIER<span class="brand-dot">.</span></span>
+    </a>
+    <nav>
+      <a href="#vitrine">Vitrine</a>
+      <a href="#atelier">Atelier</a>
+      <a href="#client">Client</a>
+    </nav>
+    <button class="top-cta" id="openAuth">Accéder à l’espace</button>
+  </header>
+
+  <main id="landing">
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="atelier-grid"></div>
+      <div class="hero-stamp">COTONOU&nbsp;&nbsp;·&nbsp;&nbsp;2026</div>
+      <div class="hero-copy">
+        <p class="eyebrow">LE SAVOIR-FAIRE BÉNINOIS, RÉINVENTÉ</p>
+        <h1>Entrez dans<br><em>l’atelier.</em></h1>
+        <p class="hero-text">Une nouvelle façon de créer, gérer et faire découvrir la mode sur-mesure au Bénin.</p>
+        <div class="hero-actions">
+          <button class="primary" id="enterBtn">Entrer dans l’atelier <span>↗</span></button>
+          <a class="ghost" href="#vitrine">Voir l’expérience</a>
+        </div>
+      </div>
+      <div class="hero-object object-sewing"><span>✦</span></div>
+      <div class="hero-object object-fabric"></div>
+      <div class="hero-object object-thread"></div>
+      <div class="hero-caption"><span>01</span> CRÉATION &nbsp;·&nbsp; STYLE &nbsp;·&nbsp; SAVOIR-FAIRE</div>
+      <div class="hero-side-note">MADE IN BENIN<br><i>avec intention.</i></div>
+      <div class="scroll-hint"><span></span> Faites défiler pour entrer</div>
+    </section>
+
+    <section class="reveal-panel" id="vitrine">
+      <div class="section-intro">
+        <p class="eyebrow">LA VITRINE</p>
+        <h2>Le talent local,<br><em>mis en lumière.</em></h2>
+        <p>Découvrez les créateurs, leurs collections et leurs pièces. Une vitrine digitale pensée pour donner de la visibilité aux ateliers béninois.</p>
+      </div>
+      <div class="collection-grid">
+        <article class="collection-card large"><div class="card-image image-1"></div><div class="card-meta"><span>01 / COLLECTION</span><strong>Racines</strong><small>Maison Kora · Cotonou</small></div></article>
+        <article class="collection-card"><div class="card-image image-2"></div><div class="card-meta"><span>02 / SUR-MESURE</span><strong>Éclat</strong><small>Atelier Néo · Porto-Novo</small></div></article>
+        <article class="collection-card"><div class="card-image image-3"></div><div class="card-meta"><span>03 / PRÊT-À-PORTER</span><strong>Terre</strong><small>Studio Afi · Abomey-Calavi</small></div></article>
+      </div>
+    </section>
+
+    <section class="feature-section" id="atelier">
+      <div class="section-heading"><p class="eyebrow">L’ATELIER</p><h2>Tout votre atelier,<br><em>au même endroit.</em></h2></div>
+      <div class="feature-list">
+        <article class="feature active"><span>01</span><div><h3>Mesures</h3><p>Profils multiples, historique des mensurations et données sécurisées.</p></div><b>↗</b></article>
+        <article class="feature"><span>02</span><div><h3>Production</h3><p>De « Reçue » à « Prêt » : un workflow visuel en six étapes.</p></div><b>↗</b></article>
+        <article class="feature"><span>03</span><div><h3>Rentabilité</h3><p>Matières + main-d’œuvre + charges : connaissez votre marge avant de vendre.</p></div><b>↗</b></article>
+        <article class="feature"><span>04</span><div><h3>Stock & planning</h3><p>Inventaire, seuils critiques, essayages et livraisons réunis dans un seul espace.</p></div><b>↗</b></article>
+      </div>
+    </section>
+
+    <section class="dashboard-section">
+      <div class="dashboard-shell">
+        <div class="dash-top"><span class="mini-brand">ATELIER.</span><span>TABLEAU DE BORD</span><span>Bonjour, Afi ↗</span></div>
+        <div class="dash-body"><aside><div class="side-active">Vue d’ensemble</div><div>Commandes</div><div>Clients & mesures</div><div>Production</div><div>Stock</div><div>Planning</div></aside><div class="dash-content"><p class="eyebrow">AUJOURD’HUI</p><h2>Votre atelier en un coup d’œil.</h2><div class="stats"><div><span>Commandes actives</span><strong>24</strong><small>+12% ce mois</small></div><div><span>Chiffre d’affaires</span><strong>1,84 M</strong><small>FCFA · ce mois</small></div><div><span>Marge moyenne</span><strong>31%</strong><small>sur 18 commandes</small></div></div><div class="production"><div class="prod-head"><strong>Production en cours</strong><span>Voir tout ↗</span></div><div class="progress-row"><div><b>Commande #1048</b><small>Robe cérémonie · Essayage : Nadia</small></div><div class="progress"><i style="width:82%"></i></div><span>82%</span></div><div class="progress-row"><div><b>Commande #1047</b><small>Ensemble homme · Tissu validé</small></div><div class="progress"><i style="width:34%"></i></div><span>34%</span></div><div class="progress-row"><div><b>Commande #1044</b><small>Deux-pièces · Couture</small></div><div class="progress"><i style="width:61%"></i></div><span>61%</span></div></div></div></div>
+      </div>
+    </section>
+
+    <section class="client-section" id="client">
+      <div class="client-visual"><div class="phone"><div class="phone-notch"></div><div class="phone-screen"><span class="mini-brand">ATELIER.</span><p class="eyebrow">MA COMMANDE</p><h3>Robe Akpè<br><em>sur-mesure</em></h3><div class="phone-line"><span class="done"></span><div><b>Commande reçue</b><small>12 sept.</small></div></div><div class="phone-line"><span class="done"></span><div><b>Tissu validé</b><small>13 sept.</small></div></div><div class="phone-line"><span class="current"></span><div><b>Coupe</b><small>En cours</small></div></div><div class="phone-line"><span></span><div><b>Couture</b><small>À venir</small></div></div><button>Contacter l’atelier</button></div></div></div>
+      <div class="client-copy"><p class="eyebrow">L’ESPACE CLIENT</p><h2>Du premier clic<br>à la <em>livraison.</em></h2><p>Le client garde ses profils de mesures, commande, choisit son mode de paiement et suit l’avancement de sa pièce sans avoir à appeler l’atelier.</p><div class="client-points"><span>✓ Profils de mesures</span><span>✓ Suivi en temps réel</span><span>✓ Paiement Mobile Money</span><span>✓ Notifications rendez-vous</span></div></div>
+    </section>
+
+    <section class="final-cta"><p class="eyebrow">PRÊT À ENTRER ?</p><h2>Votre atelier mérite<br><em>plus qu’un carnet.</em></h2><button class="primary" id="finalAuth">Créer mon espace ↗</button></section>
+  </main>
+
+  <section id="app" class="app-shell hidden" aria-hidden="true">
+    <aside class="app-sidebar">
+      <div class="sidebar-brand"><span class="brand-mark">A</span><strong>ATELIER<span>.</span></strong></div>
+      <div class="role-chip" id="roleChip">STYLISTE</div>
+      <nav id="appNav"></nav>
+      <button class="logout-btn" id="logoutBtn">Se déconnecter</button>
+    </aside>
+    <div class="app-main">
+      <header class="app-header"><div><span class="eyebrow" id="appEyebrow">TABLEAU DE BORD</span><h2 id="appTitle">Bonjour.</h2></div><div class="header-actions"><button class="icon-btn" id="notifyBtn">◌</button><button class="profile-pill" id="profileBtn">Afi · Stylist</button></div></header>
+      <div class="app-content" id="appContent"></div>
+    </div>
+  </section>
+
+  <div class="modal hidden" id="authModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-auth></div>
+    <div class="auth-card">
+      <button class="modal-close" data-close-auth>×</button>
+      <p class="eyebrow">VOTRE ESPACE ATELIER</p>
+      <h2>Entrez dans<br><em>votre espace.</em></h2>
+      <p class="muted">Prototype fonctionnel : choisissez votre profil pour explorer les parcours réels de l’application.</p>
+      <div class="role-options">
+        <button data-role="stylist"><span>01</span><strong>Je suis styliste</strong><small>Gérer commandes, mesures, stock et planning</small></button>
+        <button data-role="client"><span>02</span><strong>Je suis client(e)</strong><small>Commander, suivre une pièce et gérer mes mesures</small></button>
+        <button data-role="admin"><span>03</span><strong>Administration</strong><small>Modération, comptes et statistiques globales</small></button>
+      </div>
+      <p class="demo-note">Les données de cette V3 sont locales au navigateur. L’API Laravel/MySQL viendra remplacer ce mode démo.</p>
+    </div>
+  </div>
+
+  <div class="toast hidden" id="toast"></div>
+  <footer><span>ATELIER.</span><span>Plateforme de stylisme · Bénin</span><span>© 2026</span></footer>
+  <script>window.ATELIER_API_URL='http://localhost:8000/api';</script>
+<script src="./api-client.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
